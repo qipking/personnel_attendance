@@ -16,7 +16,7 @@ function About() {
                 <p class="py-4">人员考勤系统客户端</p>
                 <p class="py-4">软件版本 V0.0.1</p>
                 <p class="py-4">lichi3030213313</p>
-                <p class="py-4">团队成员: 魏东宇 吕子俊 颜 诚 李 炽</p>
+                <p class="py-4">团队成员: 李 炽 魏东宇 吕子俊 颜 诚</p>
                 <p class="py-4">指导老师: 李洪飞</p>
 
 

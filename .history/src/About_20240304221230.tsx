@@ -12,17 +12,18 @@ function About() {
     }
     return (
         <>
-            <div class="py-4 bg-base-200 rounded-box shadow">
-
+            <div class="p-4 bg-base-200 rounded-box shadow">
                 <p class="py-4">人员考勤系统客户端</p>
+                <p class="py-4">软件版本 V0.0.1</p>
                 <p class="py-4">lichi3030213313</p>
-                <p class="py-4">指导老师：李洪飞</p>
+                <p class="py-4">团队成员: 李 炽 魏东宇 吕子俊 颜 诚</p>
+                <p class="py-4">指导老师: 李洪飞</p>
 
 
                 <div class="p-8 m-8 bg-base-100 rounded-box shadow">
-                    <h1>Welcome to Tauri!</h1>
+                    <h1>前端框架:Tauri,Solid</h1>
 
-                    <p>Click on the Tauri, Vite, and Solid logos to learn more.</p>
+                    <p>意见反馈</p>
 
                     <form
                         class="row"
@@ -34,9 +35,9 @@ function About() {
                         <input
                             id="greet-input"
                             onChange={(e) => setName(e.currentTarget.value)}
-                            placeholder="Enter a name..."
+                            placeholder="点击按钮联系我们"
                         />
-                        <button class="btn btn-primary btn-block">Greet</button>
+                        <button class="btn btn-primary btn-block">添加QQ</button>
                     </form>
 
                     <p>{greetMsg()}</p>
