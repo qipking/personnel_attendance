@@ -5,7 +5,7 @@ import { window, setWindow, page, setPage } from "./App";
 
 function Login() {
     return (
-        <div class="bg-cover bg-center" style="background-image: url(https://api.xygeng.cn/openapi/bing/view);">
+        <div class="bg-cover bg-center" style="background-image: url(https://api.xygeng.cn/openapi/bing/);">
             <div class="hero backdrop-blur-sm min-h-screen">
                 <div class="hero-content flex-col lg:flex-row-reverse">
 
@@ -13,7 +13,7 @@ function Login() {
                         <Match when={window() === "登录"}>
                             <div class="text-center text-slate-200 lg:text-left">
                                 <h1 class="text-5xl font-bold">登陆</h1>
-                                <p class="py-6 text-3xl">健康运动每一天，快乐生活一辈子!</p>
+                                <p class="py-6 text-3xl">即将开启,打工人全新的一天!</p>
                             </div>
                             <div class="card glass flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100/50">
                                 <div class="card-body">
