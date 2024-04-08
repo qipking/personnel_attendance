@@ -3,8 +3,8 @@ function BusinessTripPage() {
         <>
             <div class="grid grid-flow-row-dense grid-cols-1 grid-rows-1 m-8 ">
                 <h1 class="text-2xl font-bold my-2">历史运动监测数据</h1>
-                <div class="overflow-x-auto table-md rounded-box shadow max-h-96">
-                    <table class="table table-xs table-pin-rows table-pin-cols bg-base-100">
+                <div class="overflow-x-auto table-md rounded-box shadow max-h-100">
+                    <table class="table table-xs table-pin-rows table-pin-cols bg-base-97">
                         <thead>
                             <tr>
                                 <th></th>

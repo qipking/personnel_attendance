@@ -8,12 +8,12 @@ function BusinessTripPage() {
                         <thead>
                             <tr>
                                 <th></th>
-                                <td>运动开始时间</td>
-                                <td>运动结束时间</td>
-                                <td>运动耗时</td>
+                                <td>用户ID</td>
+                                <td>运动持续时间</td>
                                 <td>平均心率</td>
                                 <td>平均体温</td>
                                 <td>运动步数</td>
+                                <td>记录日期</td>
                                 <th></th>
                             </tr>
                         </thead>

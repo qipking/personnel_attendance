@@ -64,8 +64,8 @@ function Navbar() {
                     <a class="btn btn-ghost normal-case text-xl">运动监测系统</a>
                 </div>
                 <div class="tabs tabs-boxed bg-base-200">
-                    <a class={current() === "出差" ? "tab tab-active" : "tab"} onClick={() => { setCurrent("出差"); setPage("出差"); }}>历史数据</a>
-                    <a class={current() === "统计" ? "tab tab-active" : "tab"} onClick={() => { setCurrent("统计"); setPage("统计"); }}>实时数据</a>
+                    <a class={current() === "出差" ? "tab tab-active" : "tab"} onClick={() => { setCurrent("出差"); setPage("出差"); }}>出差</a>
+                    <a class={current() === "统计" ? "tab tab-active" : "tab"} onClick={() => { setCurrent("统计"); setPage("统计"); }}>统计</a>
                 </div>
                 <div class="flex-none">
                     <div class="dropdown dropdown-end">

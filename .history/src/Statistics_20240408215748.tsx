@@ -7,7 +7,7 @@ function Statistics() {
     return (
         <>
             <div class="grid grid-flow-row-dense grid-cols-4 grid-rows-1 m-8 ">
-                <h1 class="text-2xl font-bold my-2">运动实时信息</h1>
+                <h1 class="text-2xl font-bold my-2">运动统计排行榜</h1>
                 <div class="stats bg-base-100 rounded-box shadow col-span-4">
                     <div class="stat">
                         <div class="stat-figure text-primary">
@@ -24,7 +24,7 @@ function Statistics() {
                         </div>
                         <div class="stat-title">当前运动体温</div>
                         <div class="stat-value text-secondary">26°C</div>
-                        <div class="stat-desc">注意体温谨防感冒</div>
+                        <div class="stat-desc">运动后注意体温谨防感冒</div>
                     </div>
 
                     <div class="stat">

@@ -56,7 +56,7 @@ function Leaderboard() {
                                             </div>
                                             <div>
                                                 <h3 class="text-base font-semibold leading-7 tracking-tight">{Employees.Name}</h3>
-                                                <p class="text-sm font-semibold leading-6 text-primary ">本月运动总时长:{Employees.AttendanceID}小时</p>
+                                                <p class="text-sm font-semibold leading-6 text-primary ">本月工作总时长:{Employees.AttendanceID}小时</p>
                                             </div>
                                         </div>
                                     </li>

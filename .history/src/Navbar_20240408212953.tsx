@@ -61,11 +61,11 @@ function Navbar() {
                     </ul>
                 </div>
                 <div class="flex-1">
-                    <a class="btn btn-ghost normal-case text-xl">运动监测系统</a>
+                    <a class="btn btn-ghost normal-case text-xl">人员考勤系统</a>
                 </div>
                 <div class="tabs tabs-boxed bg-base-200">
-                    <a class={current() === "出差" ? "tab tab-active" : "tab"} onClick={() => { setCurrent("出差"); setPage("出差"); }}>历史数据</a>
-                    <a class={current() === "统计" ? "tab tab-active" : "tab"} onClick={() => { setCurrent("统计"); setPage("统计"); }}>实时数据</a>
+                    <a class={current() === "出差" ? "tab tab-active" : "tab"} onClick={() => { setCurrent("出差"); setPage("出差"); }}>出差</a>
+                    <a class={current() === "统计" ? "tab tab-active" : "tab"} onClick={() => { setCurrent("统计"); setPage("统计"); }}>统计</a>
                 </div>
                 <div class="flex-none">
                     <div class="dropdown dropdown-end">
@@ -79,7 +79,7 @@ function Navbar() {
                         </label>
                         <div tabindex="0" class="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow z-50">
                             <div class="card-body">
-                                <span class="font-bold text-lg">累计运动时长:</span>
+                                <span class="font-bold text-lg">累计上班时长:</span>
                                 <span class="text-info">
                                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
 
@@ -105,7 +105,7 @@ function Navbar() {
                                     </div>
                                 </span>
                                 <div class="card-actions">
-                                    <button class="btn btn-primary btn-block" onclick={() => setWindow("下班")}>停止运动</button>
+                                    <button class="btn btn-primary btn-block" onclick={() => setWindow("下班")}>立即下班</button>
                                 </div>
                             </div>
                         </div>
@@ -118,8 +118,14 @@ function Navbar() {
                             </div>
                         </label>
                         <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                            <li onclick={() => { setPage("审批通知"); setCurrent("空选"); }}>
+                                <a class="justify-between">
+                                    审批通知
+                                    <span class="badge">New</span>
+                                </a>
+                            </li>
                             <li onclick={() => { setPage("个人信息"); setCurrent("空选"); }}><a>个人信息</a></li>
-                            <li onclick={() => { setPage("工作排名"); setCurrent("空选"); }}><a>运动排名</a></li>
+                            <li onclick={() => { setPage("工作排名"); setCurrent("空选"); }}><a>工作排名</a></li>
                         </ul>
                     </div>
                 </div>

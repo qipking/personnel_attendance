@@ -8,6 +8,7 @@ import Statistics from "./Statistics";
 import Leaderboard from "./Leaderboard";
 import Registration from "./Registration";
 import BusinessTripPage from "./BusinessTripPage";
+import OverTimePage from "./OverTimePage";
 
 export const [window, setWindow] = createSignal("登录");
 export const [page, setPage] = createSignal("统计");
@@ -28,7 +29,7 @@ function App() {
                             <Match when={page() === "个人信息"}>
                                 <Registration />
                             </Match>
-                            <Match when={page() === "工作排名"}>
+                            <Match when={   () === "工作排名"}>
                                 <Leaderboard />
                             </Match>
                         </Switch>

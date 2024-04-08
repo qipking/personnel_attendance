@@ -40,7 +40,7 @@ function Leaderboard() {
                 <div class="py-24 sm:py-32 p-8 bg-base-100 rounded-box shadow">
                     <div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
                         <div class="max-w-2xl">
-                            <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">最自律运动员</h2>
+                            <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">最佳自律运动员</h2>
                             <p class="mt-6 text-lg leading-8">热爱运动，热爱生命。</p>
                         </div>
                         <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-3 sm:gap-y-16 xl:col-span-2">
@@ -56,7 +56,7 @@ function Leaderboard() {
                                             </div>
                                             <div>
                                                 <h3 class="text-base font-semibold leading-7 tracking-tight">{Employees.Name}</h3>
-                                                <p class="text-sm font-semibold leading-6 text-primary ">本月运动总时长:{Employees.AttendanceID}小时</p>
+                                                <p class="text-sm font-semibold leading-6 text-primary ">本月工作总时长:{Employees.AttendanceID}小时</p>
                                             </div>
                                         </div>
                                     </li>

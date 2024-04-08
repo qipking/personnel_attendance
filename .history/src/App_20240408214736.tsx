@@ -28,7 +28,7 @@ function App() {
                             <Match when={page() === "个人信息"}>
                                 <Registration />
                             </Match>
-                            <Match when={page() === "工作排名"}>
+                            <Match when={   () === "工作排名"}>
                                 <Leaderboard />
                             </Match>
                         </Switch>

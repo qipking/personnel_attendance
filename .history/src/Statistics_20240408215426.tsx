@@ -7,7 +7,7 @@ function Statistics() {
     return (
         <>
             <div class="grid grid-flow-row-dense grid-cols-4 grid-rows-1 m-8 ">
-                <h1 class="text-2xl font-bold my-2">运动实时信息</h1>
+                <h1 class="text-2xl font-bold my-2">运动统计排行榜</h1>
                 <div class="stats bg-base-100 rounded-box shadow col-span-4">
                     <div class="stat">
                         <div class="stat-figure text-primary">
@@ -22,9 +22,9 @@ function Statistics() {
                         <div class="stat-figure text-secondary">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg>
                         </div>
-                        <div class="stat-title">当前运动体温</div>
-                        <div class="stat-value text-secondary">26°C</div>
-                        <div class="stat-desc">注意体温谨防感冒</div>
+                        <div class="stat-title">连续打卡日期</div>
+                        <div class="stat-value text-secondary">2.5年</div>
+                        <div class="stat-desc">21次被评为优秀运动员</div>
                     </div>
 
                     <div class="stat">

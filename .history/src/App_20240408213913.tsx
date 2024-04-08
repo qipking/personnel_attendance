@@ -8,6 +8,7 @@ import Statistics from "./Statistics";
 import Leaderboard from "./Leaderboard";
 import Registration from "./Registration";
 import BusinessTripPage from "./BusinessTripPage";
+import OverTimePage from "./OverTimePage";
 
 export const [window, setWindow] = createSignal("登录");
 export const [page, setPage] = createSignal("统计");
@@ -22,13 +23,13 @@ function App() {
                     <Match when={window() === "首页"}>
                         <Navbar />
                         <Switch fallback={<Statistics />}>】
-                            <Match when={page() === "出差"}>
+                            <Match when={page() === "历史信息"}>
                                 <BusinessTripPage />
                             </Match>】
                             <Match when={page() === "个人信息"}>
                                 <Registration />
                             </Match>
-                            <Match when={page() === "工作排名"}>
+                            <Match when={page() === "运动排名"}>
                                 <Leaderboard />
                             </Match>
                         </Switch>

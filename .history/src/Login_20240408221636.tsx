@@ -53,9 +53,9 @@ function Login() {
                                     <div class="hero-content flex-col lg:flex-row">
                                         <progress class="progress progress-primary w-56 "></progress>
                                         <div>
-                                            <h1 class="text-5xl font-bold">准备运动</h1>
-                                            <p class="py-6 text-2xl">运动快乐每一天!</p>
-                                            <button class="btn btn-primary" onclick={() => setWindow("首页")}>开始计时</button>
+                                            <h1 class="text-5xl font-bold">完成打卡</h1>
+                                            <p class="py-6 text-2xl">上班不迟到,工作不加班!</p>
+                                            <button class="btn btn-primary" onclick={() => setWindow("首页")}>打卡上班</button>
                                         </div>
                                     </div>
                                 </div>
